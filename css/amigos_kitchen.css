@@ -1,0 +1,100 @@
+.header{
+    background-color:#ff652f;
+    height: 130px;  
+
+}
+#header_img{
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    margin-top: -10px;
+    margin-left: 35px;
+}
+#header_title {
+    color: white;
+    font-size: 42px;
+    padding: 5px;
+}
+#hotel_add{
+    font-size: 15px;
+    color: #a9a9a9;
+    opacity: 0.9;
+    padding-left: 30px;
+}
+#hotel_add1
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #a9a9a9;
+    opacity: 0.9;
+    padding-left: 30px;
+}
+.menu1{
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+#hotel_name{
+    padding-left: 30px;
+    
+}
+#icf2,#icf{
+	background-color:cadetblue;
+}
+.box{
+    height: 30px;
+    width: 40px;
+}
+h4{
+    opacity: 0.8;
+    padding-left: 10px;
+}
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+#btns{
+    width: 105px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: yellowgreen;
+	color: white;
+}
+.bill{
+    
+    position: fixed;
+    margin-top: -1630px;
+    color: black;
+    margin-left:850px ;
+    height: 370px;
+    overflow: auto;
+}
+
+  #final_bill12{
+      margin-left: 220px;      
+  }
+
+  
+.footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+    margin-top: 10px;
+    
+}
+#footer_img{
+    width: 30px;
+    height: 30px;
+}
+.footer1{
+    padding-top: 130px;
+    text-align: center;
+}
+ .footer_final {
+    background-color: black;
+    height: 55px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}

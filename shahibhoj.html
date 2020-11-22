@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <title>Online Food Order</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
+        <link rel="stylesheet" type="text/css" href="css/ashoka.css">
+    </head>
+    <body>
+        <!-------------------------------------------------Header----------------------------------------------------------->
+        
+        <div class="col-lg-12 header">
+            <div class="row">
+                <div class="col-lg-7">
+                    <marquee> <img id="header_img" src="Image/bike.png"> </marquee>
+                </div>
+                <div class="col-lg-5">
+                    <p id="header_title"><b> <em> Online Food Order </em> </b></p>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------Main Content------------------------------------------------------->
+        <div class="col-lg-12">
+            <div class="row">
+            </div>
+            <!-------title---------->
+        </div>
+        <div class="row hotel_name">
+            <div class="col-lg-8 ">
+                <p><h6 id="txt2">Order Food Online From</h6></p>
+                <p id="txt1"><h2><b>Shahi Bhoj Restaurant</b></h2></p>
+                <h6 id="txt2">Chikalthana Aurangabad</h6>
+                <h6 id="txt2">Opening Hours: Open:10:00am-Closed:11:00PM</h6>
+                <h6 id="txt2">Contact No: 1800-100-550</h6>
+            </div>
+        </div>
+        <!-----------Menu--------->
+        <!--------Meal Box--------->
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <h4>Meal Box</h4>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/CorporateMealTray.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="cor_meal_tray">Corporate Meal Tray</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377  <span id="cor_meal_tray_price">  150.00 </span> </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr">-</button>
+                        <button class="box border-success"id="ppr1">0</button>
+                        <button class="box btn-primary" id="ppr2">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add1" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/ExecutiveMealBox.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="exec_meal_box">Executive Meal Box</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="exec_meal_box_price">  300.00 </span> </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr3">-</button>
+                        <button class="box border-success"id="ppr4">0</button>
+                        <button class="box btn-primary" id="ppr5">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add2" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/PremiumMealBox.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="prem_meal_box">Premium Meal Box</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="prem_meal_box_price"> 450.00 </span> </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr6">-</button>
+                        <button class="box border-success"id="ppr7">0</button>
+                        <button class="box btn-primary" id="ppr8">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add3" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/FamilyMealBox.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="fam_meal_box">Family Meal Box</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="fam_meal_box_price"> 1000.00  </span> </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr9">-</button>
+                        <button class="box border-success"id="ppr10">0</button>
+                        <button class="box btn-primary" id="ppr11">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add4" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------Specials--------->
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <h4>Specials</h4>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/ShevBhaji.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="shev_bhaji">Shev Bhaji</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="shev_bhaji_price">  120.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr12">-</button>
+                        <button class="box border-success"id="ppr13">0</button>
+                        <button class="box btn-primary" id="ppr14">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add5" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/BaiganMasala.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="BaiganMasala">Baigan Masala</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="BaiganMasalaprice">  130.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr15">-</button>
+                        <button class="box border-success"id="ppr16">0</button>
+                        <button class="box btn-primary" id="ppr17">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add6" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/VegPulao.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="VegPulao">Veg Pulao</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="VegPulaoprice"> 150.00  </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr18">-</button>
+                        <button class="box border-success"id="ppr19">0</button>
+                        <button class="box btn-primary" id="ppr20">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add6" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/DalKhichadiButter.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="DalKhichadiButter">Dal Khichadi Butter</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="DalKhichadiButterprice"> 155.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr21">-</button>
+                        <button class="box border-success"id="ppr22">0</button>
+                        <button class="box btn-primary" id="ppr23">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add8" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/AlooMasala.jpg">
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="AlooMasala">Aloo Masala</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="AlooMasalaprice"> 130.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr24">-</button>
+                        <button class="box border-success"id="ppr25">0</button>
+                        <button class="box btn-primary" id="ppr26">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add9" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/PlainPalak.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="PlainPalak">Plain Palak</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="PlainPalakprice"> 130.00</span> </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr27">-</button>
+                        <button class="box border-success"id="ppr28">0</button>
+                        <button class="box btn-primary" id="ppr29">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add10" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/PaneerMasala.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="PaneerMasala">Paneer Masala</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="PaneerMasalaprice"> 170.00</span> </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr30">-</button>
+                        <button class="box border-success"id="ppr31">0</button>
+                        <button class="box btn-primary" id="ppr32">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add11" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/palakpaneer.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="PaneerPalak">Paneer Palak</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="PaneerPalakprice"> 160.00 </span> </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr33">-</button>
+                        <button class="box border-success"id="ppr34">0</button>
+                        <button class="box btn-primary" id="ppr35">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add12" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/PaneerMutter.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="PaneerMutter">Paneer Mutter</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="PaneerMutterprice">  155.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr36">-</button>
+                        <button class="box border-success"id="ppr37">0</button>
+                        <button class="box btn-primary" id="ppr38">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add13" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/ShevBhajiSpecial.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="ShevBhajiSpecial">Shev Bhaji Special</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="ShevBhajiSpecialprice">  140.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr39">-</button>
+                        <button class="box border-success"id="ppr40">0</button>
+                        <button class="box btn-primary" id="ppr41">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add14" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/ShewagaMasalaSpecial.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="ShewagaMasalaSpecial">Shewaga Masala Special</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="ShewagaMasalaSpecialprice">  160.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr42">-</button>
+                        <button class="box border-success"id="ppr43">0</button>
+                        <button class="box btn-primary" id="ppr44">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add15" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--------Chapati--------->
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <h4>Chapati</h4>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/TawaChapati.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="TawaChapati">Tawa Chapati</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="TawaChapatiprice">  15.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr45">-</button>
+                        <button class="box border-success"id="ppr46">0</button>
+                        <button class="box btn-primary" id="ppr47">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add16" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/ButterChapathi.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="ButterChapathi">Butter Chapathi</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="ButterChapathiprice">  20.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr48">-</button>
+                        <button class="box border-success"id="ppr49">0</button>
+                        <button class="box btn-primary" id="ppr50">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add17" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/TawaParatha.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="TawaParatha">Tawa Paratha</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="TawaParathaprice">  30.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr51">-</button>
+                        <button class="box border-success"id="ppr52">0</button>
+                        <button class="box btn-primary" id="ppr53">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add18" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/AlooParatha.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="AlooParatha">Aloo Paratha</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="AlooParathaprice"> 50.00  </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr54">-</button>
+                        <button class="box border-success"id="ppr55">0</button>
+                        <button class="box btn-primary" id="ppr56">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add19" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--------------------Rice------------------------>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <h4>Rice</h4>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/PlainRice.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="PlainRice">Plain Rice</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="PlainRiceprice">  80.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr57">-</button>
+                        <button class="box border-success"id="ppr58">0</button>
+                        <button class="box btn-primary" id="ppr59">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add20" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/JeeraRice.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="JeeraRice">Jeera Rice</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="JeeraRiceprice"> 90.00  </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr60">-</button>
+                        <button class="box border-success"id="ppr61">0</button>
+                        <button class="box btn-primary" id="ppr62">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add21" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/VegPulao2.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="VegPulao">Veg Pulao</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="VegPulaoprice">  150.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr63">-</button>
+                        <button class="box border-success"id="ppr64">0</button>
+                        <button class="box btn-primary" id="ppr65">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add22" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 menu1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="Images/bhoj/MasalaRice.jpg" >
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 id="MasalaRice">Masala Rice</h6>
+                        <h6 id="txt2">Special Price</h6>
+                        <p>&#8377 <span id="MasalaRiceprice"> 125.00 </span></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="box btn-primary"id="ppr66">-</button>
+                        <button class="box border-success"id="ppr67">0</button>
+                        <button class="box btn-primary" id="ppr68">+</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" id="btn" class="add23" value="Add">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-------------------------Dal--------------------------->
+        <div class="col-lg-8 menu1">
+            <h4>Dal</h4>
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="Images/bhoj/DalFry.jpg" >
+                </div>
+                <div class="col-lg-4">
+                    <h6 id="DalFry">Dal Fry</h6>
+                    <h6 id="txt2">Special Price</h6>
+                    <p>&#8377 <span id="DalFryprice">  130.00</span></p>
+                </div>
+                <div class="col-lg-3">
+                    <button class="box btn-primary"id="ppr69">-</button>
+                    <button class="box border-success"id="ppr70">0</button>
+                    <button class="box btn-primary" id="ppr71">+</button>
+                </div>
+                <div class="col-lg-2">
+                    <input type="submit" id="btn" class="add24" value="Add">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        
+        <div class="col-lg-8 menu1">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="Images/bhoj/DalTadka.jpg" >
+                </div>
+                <div class="col-lg-4">
+                    <h6 id="DalTadka">Dal Tadka</h6>
+                    <h6 id="txt2">Special Price</h6>
+                    <p>&#8377 <span id="DalTadkaprice">  120.00</span></p>
+                </div>
+                <div class="col-lg-3">
+                    <button class="box btn-primary"id="ppr72">-</button>
+                    <button class="box border-success"id="ppr73">0</button>
+                    <button class="box btn-primary" id="ppr74">+</button>
+                </div>
+                <div class="col-lg-2">
+                    <input type="submit" id="btn" class="add25" value="Add">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 menu1">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="Images/bhoj/DalKolhapuri.jpg" >
+                </div>
+                <div class="col-lg-4">
+                    <h6 id="DalKolhapuri">Dal Kolhapuri</h6>
+                    <h6 id="txt2">Special Price</h6>
+                    <p>&#8377 <span id="DalKolhapuriprice"> 120.00 </span> </p>
+                </div>
+                <div class="col-lg-3">
+                    <button class="box btn-primary"id="ppr75">-</button>
+                    <button class="box border-success"id="ppr76">0</button>
+                    <button class="box btn-primary" id="ppr77">+</button>
+                </div>
+                <div class="col-lg-2">
+                    <input type="submit" id="btn" class="add26" value="Add">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        
+        <div class="col-lg-8 menu1">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="Images/bhoj/ButterDalFry.jpg" >
+                </div>
+                <div class="col-lg-4">
+                    <h6 id="ButterDalFry">Butter Dal Fry</h6>
+                    <h6 id="txt2">Special Price</h6>
+                    <p>&#8377 <span id="ButterDalFryprice">  130.00</span></p>
+                </div>
+                <div class="col-lg-3">
+                    <button class="box btn-primary"id="ppr78">-</button>
+                    <button class="box border-success"id="ppr79">0</button>
+                    <button class="box btn-primary" id="ppr80">+</button>
+                </div>
+                <div class="col-lg-2">
+                    <input type="submit" id="btn" class="add27" value="Add">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    
+    <div class="col-lg-8 menu1">
+        <div class="row">
+            <div class="col-lg-2">
+                <img src="Images/bhoj/JeeraDal.jpg" >
+            </div>
+            <div class="col-lg-4">
+                <h6 id="JeeraDal">Jeera Dal</h6>
+                <h6 id="txt2">Special Price</h6>
+                <p>&#8377 <span id="JeeraDalprice">  110.00</span></p>
+            </div>
+            <div class="col-lg-3">
+                <button class="box btn-primary"id="ppr81">-</button>
+                <button class="box border-success"id="ppr82">0</button>
+                <button class="box btn-primary" id="ppr83">+</button>
+            </div>
+            <div class="col-lg-2">
+                <input type="submit" id="btn" class="add28" value="Add">
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Paneer Specials--------->
+<div class="row">
+    <div class="col-lg-8 menu1">
+        <h4>Paneer Specials</h4>
+        <div class="row">
+            <div class="col-lg-2">
+                <img src="Images/bhoj/PaneerMakhani.jpg" >
+            </div>
+            <div class="col-lg-4">
+                <h6 id="PaneerMakhani">Paneer Makhani</h6>
+                <h6 id="txt2">Special Price</h6>
+                <p>&#8377 <span id="PaneerMakhaniprice"> 175.00 </span> </p>
+            </div>
+            <div class="col-lg-3">
+                <button class="box btn-primary"id="ppr84">-</button>
+                <button class="box border-success"id="ppr85">0</button>
+                <button class="box btn-primary" id="ppr86">+</button>
+            </div>
+            <div class="col-lg-2">
+                <input type="submit" id="btn" class="add29" value="Add">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-8 menu1">
+        <div class="row">
+            <div class="col-lg-2">
+                <img src="Images/bhoj/PaneerBhurji.jpg" >
+            </div>
+            <div class="col-lg-4">
+                <h6 id="PaneerBhurji">Paneer Bhurji</h6>
+                <h6 id="txt2">Special Price</h6>
+                <p>&#8377 <span id="PaneerBhurjiprice">  200.00 </span></p>
+            </div>
+            <div class="col-lg-3">
+                <button class="box btn-primary"id="ppr87">-</button>
+                <button class="box border-success"id="ppr88">0</button>
+                <button class="box btn-primary" id="ppr89">+</button>
+            </div>
+            <div class="col-lg-2">
+                <input type="submit" id="btn" class="add30" value="Add">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-8 menu1">
+        <div class="row">
+            <div class="col-lg-2">
+                <img src="Images/bhoj/PaneerPalak.jpg" >
+            </div>
+            <div class="col-lg-4">
+                <h6 id="PaneerPalak">Paneer Palak </h6>
+                <h6 id="txt2">Special Price</h6>
+                <p>&#8377 <span id="PaneerPalakprice"> 200.00  </span></p>
+            </div>
+            <div class="col-lg-3">
+                <button class="box btn-primary"id="ppr90">-</button>
+                <button class="box border-success"id="ppr91">0</button>
+                <button class="box btn-primary" id="ppr92">+</button>
+            </div>
+            <div class="col-lg-2">
+                <input type="submit" id="btn" class="add31" value="Add">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-8 menu1">
+        <div class="row">
+            <div class="col-lg-2">
+                <img src="Images/bhoj/PaneerKeema.jpg" >
+            </div>
+            <div class="col-lg-4">
+                <h6 id="PaneerKeema">Paneer Keema</h6>
+                <h6 id="txt2">Special Price</h6>
+                <p>&#8377 <span id="PaneerKeemaprice"> 190.00  </span></p>
+            </div>
+            <div class="col-lg-3">
+                <button class="box btn-primary"id="ppr93">-</button>
+                <button class="box border-success"id="ppr94">0</button>
+                <button class="box btn-primary" id="ppr95">+</button>
+            </div>
+            <div class="col-lg-2">
+                <input type="submit" id="btn" class="add32" value="Add">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="col-lg-4 bill-1 jumbotron" id="bill-reciept">
+
+<p id="your_order">Your Order</p>
+<ul id="menu_list" style="list-style-type:none;">
+    <li id="list1"></li>
+    <li id="list2"></li>
+    <li id="list3"></li>
+    <li id="list4"></li>
+    <li id="list5"></li>
+    <li id="list6"></li>
+    <li id="list7"></li>
+    <li id="list8"></li>
+    <li id="list9"></li>
+    <li id="list10"></li>
+    <li id="list11"></li>
+    <li id="list12"></li>
+    <li id="list13"></li>
+    <li id="list14"></li>
+    <li id="list15"></li>
+    <li id="list16"></li>
+    <li id="list17"></li>
+    <li id="list18"></li>
+    <li id="list19"></li>
+    <li id="list20"></li>
+    <li id="list21"></li>
+    <li id="list22"></li>
+    <li id="list23"></li>
+    <li id="list24"></li>
+    <li id="list25"></li>
+    <li id="list26"></li>
+    <li id="list27"></li>
+    <li id="list28"></li>
+    <li id="list29"></li>
+    <li id="list30"></li>
+    <li id="list31"></li>
+    <li id="list32"></li>
+</ul>
+<h5 id="final_bill12"></h5>
+<input type="submit" value="Show Bill" id="final_bill_btn">
+<button type="button" onclick="printJS({ printable: 'bill-reciept', type: 'html', header: 'Shahibhoj Hotel - Bill' })"> Print Bill </button>
+</div>
+<!------------------------------Footer----------------------------------------->
+  <div class="container-fluid footer_final">
+        <div class="row">
+            <div class="col-lg-4">
+                <p id="footer">Copyright &copy 2020</p>
+            </div>
+            <div class="col-lg-4">
+                <p id="footer1">Follow Us On</p>
+            </div>
+            <div class="col-lg-4">
+                <img id="footer_img" src="Images/footer/insta.png">
+                <img id="footer_img" src="Images/footer/facebook.png">
+                <img id="footer_img" src="Images/footer/twiter.png">
+                <img id="footer_img" src="Images/footer/mail.png">
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/food.js"></script>
+<script type="text/javascript" src="js/shahibhoj.js"></script>
+<script src="js/print.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>

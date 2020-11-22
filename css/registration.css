@@ -1,0 +1,38 @@
+/*#bg{
+    background-image:url("Images/mainbg.png");
+
+  }*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  left:-120;
+  bottom:0;
+  top:0;
+  width: fit-content;
+  height: fit-content;
+  /*min-width: 100%;
+  min-height: 100%;*/
+}
+
+.form {
+  
+  height: auto;
+  border-radius: 30px;
+  background-color:#282828;
+  margin-top: 80px;
+  margin-left: 50px;
+  opacity: 0.8;
+  color:white;
+}
+.headline{
+  font-size: 30px;  
+}
+.first{
+ margin-top: 100px;
+  
+}
+.btn{
+  margin: 10px 200px;
+  width: 200px;
+}

@@ -1,0 +1,102 @@
+img{
+width: 100%;
+}
+h2, h3{
+	text-align: center;
+}
+.Home-Image img{
+width: 100%;
+height: auto;
+}
+.Testimonial h2{
+text-align: center;
+}
+footer{
+height: 50px;
+background-color: #17a2b8;
+color: white;
+text-align: center;
+padding-top: 10px;
+}
+.brand_n{
+color: #00ff3a;
+}
+i{
+color: tomato;
+font-size:20px !important;
+}
+.carousel-item img{
+height: 500px;
+width: 800px;
+}
+.address_bar{
+height: auto;
+background-color: #92cede;
+text-align: left;
+padding-top: 10px;
+}
+@media (min-width: 768px) {
+.Home-Image img{
+width: 100%;
+height: 500px;
+}
+}
+   p.bottom:hover {
+	color: red !important;
+	background-color: tomato;
+	font-size: 40px;
+}
+
+.bottom .bot:hover{
+	color: red !important;
+	background-color: tomato;
+	font-size: 40px;
+}
+a.navbar-brand:hover{
+	color: red !important;
+}
+.about h3{
+	text-align: center;
+	margin-top: 20px;
+
+}
+.about h3, .about p{
+		background-color: tomato;
+		padding: 10px;
+		color: white;
+}
+.Gallery img:hover{
+	border:5px solid #92cede;
+}
+.Gallery img{
+	border-radius: 5px;
+	margin-top: 10px;
+}
+#main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+}
+#main div {
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 2;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  left:-120;
+  bottom:0;
+  top:0;
+
+}
+.login-page {
+	position: fixed;
+	margin:20px 50px; 
+	width: 300px !important;
+	height: 300px !important;
+	background-color: #272626 !important;
+	border-radius: 10px;
+}
+
